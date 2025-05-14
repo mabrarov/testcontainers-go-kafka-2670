@@ -3,7 +3,7 @@
 Reproducing https://github.com/testcontainers/testcontainers-go/issues/2670 (multiple tries can be required):
 
 1. Environment
-    1. Go SDK 1.21+
+    1. Go SDK 1.23+
     1. Windows 11 23H2
     1. WSL
     1. Docker Desktop v4.41.2

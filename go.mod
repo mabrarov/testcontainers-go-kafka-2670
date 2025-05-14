@@ -1,6 +1,6 @@
 module github.com/mabrarov/testcontainers-go-kafka-2670
 
-go 1.21
+go 1.23
 
 require github.com/testcontainers/testcontainers-go/modules/kafka v0.32.0
 
