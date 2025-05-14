@@ -1,8 +1,11 @@
 module github.com/mabrarov/testcontainers-go-kafka-2670
 
-go 1.23
+go 1.23.0
 
-require github.com/testcontainers/testcontainers-go/modules/kafka v0.32.0
+require (
+	github.com/testcontainers/testcontainers-go/modules/kafka v0.32.0
+	golang.org/x/sync v0.14.0
+)
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
