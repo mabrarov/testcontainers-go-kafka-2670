@@ -69,3 +69,7 @@ $ echo $?
 The same issue in debugger
 
 ![debugger screenshot](debugger.png)
+
+Please note that this issue is a sort of race condition - it depends on time b/w container started and
+github.com/testcontainers/testcontainers-go/modules/kafka checked for the mapped port.
+It makes this issue happening intermittently, so multiple (5-20) tries can be required to reproduce issue.
